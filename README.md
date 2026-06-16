@@ -45,3 +45,6 @@ actionable business insights.
 ## Author
 
 Adil Sujaoddin Maniyar
+
+<img width="1168" height="657" alt="Screenshot 2026-06-16 162426" src="https://github.com/user-attachments/assets/3d32e370-439e-44fe-8a6b-63b69004e79f" />
+
