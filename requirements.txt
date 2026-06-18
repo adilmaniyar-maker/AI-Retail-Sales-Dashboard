@@ -1,1 +1,6 @@
-pandas numpy matplotlib openpyxl jupyter
+streamlit
+pandas
+numpy
+plotly
+scipy
+openpyxl
