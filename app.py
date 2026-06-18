@@ -135,7 +135,7 @@ footer {visibility: hidden;}
 # ── Load Data ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/superstore_clean.csv", parse_dates=["Order Date", "Ship Date"])
+    df = pd.read_csv("superstore_clean.csv", parse_dates=["Order Date", "Ship Date"])
     df["Year"] = df["Order Date"].dt.year
     df["Month"] = df["Order Date"].dt.to_period("M").astype(str)
     df["Month_dt"] = df["Order Date"].dt.to_period("M").dt.to_timestamp()
